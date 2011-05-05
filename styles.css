@@ -1,0 +1,125 @@
+* {
+    font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+}
+body {
+	background: url('images/background.gif') repeat-x #f8f8f3;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    width: 1003px;
+    margin: auto;
+}
+
+#title {
+    width: 197px;
+	height: 60px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24pt;
+    float: left;
+    border-left: 3px solid #f8f8f3;
+}
+
+#title div {
+    text-align: center;
+    width: 177px;
+    height: 40px;
+    float: left;
+    padding: 10px;
+    background: #bf3a16;
+}
+
+#subtitle {
+    float: right;
+    font-style: italic;
+    font-size: 13pt;
+    padding-right: 5px;
+}
+
+#subtitle .text {
+    padding-top: 22px;
+    float: left;
+}
+
+#subtitle img {
+    height: 50px;
+    margin-left: 13px;
+    margin-top: 10px;
+    float:left;
+}
+
+.red {
+    color: #792913;
+}
+
+#menu {
+    clear: both;
+    float: left;
+    height: 60px;
+    margin-top: 5px;
+    border-right: 3px solid #f8f8f3;
+}
+
+#menu .item {
+    width: 197px;
+    border-left: 3px solid #f8f8f3;
+    height: 60px;
+    float: left;
+    color: #000;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#menu .item.active {
+    background-image: url('images/menu_active.gif');
+    background-repeat: repeat-x;
+}
+
+#menu .item a {
+    display: block;
+    height: 41px;
+    width: 197px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 19px;
+}
+
+#body {
+    clear: both;
+    background: #f8f8f3 url('images/background.gif') repeat-x bottom;
+}
+
+#content {
+    width: 1003px;
+    margin: auto;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+#data {
+    border-left: 3px solid #ebe9d8;
+    border-right: 3px solid #ebe9d8;
+    padding: 15px;
+}
+
+#footer {
+    height: 35px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 10pt;
+    position: absolute;
+    bottom: 0;
+    width: 897px;
+    border-left: 3px solid #f8f8f3;
+    border-right: 3px solid #f8f8f3;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
