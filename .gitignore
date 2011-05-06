@@ -1,1 +1,4 @@
 .idea
+.bundle
+tmp
+vendor/bundle
