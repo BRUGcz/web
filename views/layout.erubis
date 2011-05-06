@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>BRUG</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<div id="header">
+    <div id="title"><div class="text">BRUG</div></div>
+    <div id="subtitle"><div class="text">we know <span class="red">the secrets of Ruby</span></div><img src="/images/ruby_logo.png" alt="Logo Ruby"/></div>
+    <div id="menu">
+        <div class="item<%= @menu == 'about' ? ' active' : '' %>"><a href="/">About us</a></div>
+        <div class="item<%= @menu == 'activities' ? ' active' : '' %>"><a href="/">Activities</a></div>
+        <div class="item<%= @menu == 'projects' ? ' active' : '' %>"><a href="/">Projects</a></div>
+        <div class="item<%= @menu == 'members' ? ' active' : '' %>"><a href="/">Members</a></div>
+        <div class="item<%= @menu == 'portfolio' ? ' active' : '' %>"><a href="/">Portfolio</a></div>
+    </div>
+</div>
+<div id="body">
+    <div id="content">
+        <div id="data">
+          <%= yield %>
+        </div>
+        <div id="footer">
+            <div style="float: left;">&copy; 2011 Brno Ruby User Group</div>
+            <div style="float: right;">Contact: brug (at) brug.cz</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
