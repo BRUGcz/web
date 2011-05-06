@@ -8,6 +8,8 @@ module Brug
     set :public, File.expand_path('../public', __FILE__)
     set :views, File.expand_path('../views', __FILE__)
 
+    set :environment, "production"
+
     get '/' do
       @menu = "about"
       erubis :about
