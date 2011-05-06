@@ -30,9 +30,9 @@ module Brug
       erubis :members
     end
 
-    get '/portfolio' do
-      @menu = "portfolio"
-      erubis :portfolio
+    get '/blog' do
+      @menu = "blog"
+      erubis :blog
     end
 
   end

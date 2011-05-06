@@ -15,7 +15,7 @@
         <div class="item<%= @menu == 'activities' ? ' active' : '' %>"><a href="/activities">Activities</a></div>
         <div class="item<%= @menu == 'projects' ? ' active' : '' %>"><a href="/projects">Projects</a></div>
         <div class="item<%= @menu == 'members' ? ' active' : '' %>"><a href="/members">Members</a></div>
-        <div class="item<%= @menu == 'portfolio' ? ' active' : '' %>"><a href="/portfolio">Portfolio</a></div>
+        <div class="item<%= @menu == 'blog' ? ' active' : '' %>"><a href="/blog">Blog</a></div>
     </div>
 </div>
 <div id="body">
