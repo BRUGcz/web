@@ -15,6 +15,26 @@ module Brug
       erubis :about
     end
 
+    get '/activities' do
+      @menu = "activities"
+      erubis :activities
+    end
+
+    get '/projects' do
+      @menu = "projects"
+      erubis :projects
+    end
+
+    get '/members' do
+      @menu = "members"
+      erubis :members
+    end
+
+    get '/portfolio' do
+      @menu = "portfolio"
+      erubis :portfolio
+    end
+
   end
 
 end
