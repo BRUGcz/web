@@ -88,6 +88,10 @@ body {
     padding-top: 19px;
 }
 
+#menu .item a:hover {
+    text-decoration: underline;
+}
+
 #body {
     clear: both;
     background: #f8f8f3 url('images/background.gif') repeat-x bottom;
@@ -122,4 +126,17 @@ body {
 h1 {
     margin: 0;
     margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

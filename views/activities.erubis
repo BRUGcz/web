@@ -1,2 +1,8 @@
 <h1>Activities</h1>
-<p>Coming soon</p>
+<h2>Meetings</h2>
+<p><span class="red">Regular meetings</span> are being organized <span class="red">on irregular basis</span>. Everybody is encouraged to do presentation on a topic that founds interesting or just come
+to meet interesting people.</p>
+<p>More information can be found <a href="http://meetr.cz/" target="_blank">on this page</a>.</p>
+<h2>Teaching</h2>
+<p><span class="red">New course</span> about Ruby and it's ecosystem is being prepared <span class="red">at LaSArIS, Faculty of informatics, Masaryk University</span>.</p>
+<p>More information will be presented soon.</p>
