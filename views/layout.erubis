@@ -9,7 +9,7 @@
 <body>
 <div id="header">
     <div id="title"><div class="text">BRUG</div></div>
-    <div id="subtitle"><div class="text">we know <span class="red">the secrets of Ruby</span></div><img src="/images/ruby_logo.png" alt="Logo Ruby"/></div>
+    <div id="subtitle"><div class="text">we know <span class="red">the secrets of Ruby</span></div><div class="img"><img src="/images/ruby_logo.png" alt="Logo Ruby"/></div></div>
     <div id="menu">
         <div class="item<%= @menu == 'about' ? ' active' : '' %>"><a href="/">About us</a></div>
         <div class="item<%= @menu == 'activities' ? ' active' : '' %>"><a href="/activities">Activities</a></div>

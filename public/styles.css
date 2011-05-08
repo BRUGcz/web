@@ -43,11 +43,17 @@ body {
     float: left;
 }
 
-#subtitle img {
+#subtitle .img {
     height: 50px;
+    width: 37px;
     margin-left: 13px;
     margin-top: 10px;
     float:left;
+}
+
+#subtitle .img img {
+    height: 50px;
+    width: 37px;
 }
 
 .red {
