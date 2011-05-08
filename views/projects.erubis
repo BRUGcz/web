@@ -1,2 +1,11 @@
 <h1>Projects</h1>
-<p>Coming soon</p>
+<h2>Open-source</h2>
+Coming soon ...
+<h2>Commercial</h2>
+<table>
+  <tr>
+    <td><img src="/images/members/companies/it_logica.png" alt="IT Logica" /></td>
+    <td><span class="red">Training and support</span> with adapting <span class="red">Ruby and Ruby on Rails</span> into company processes.</td>
+  </tr>
+</table>
+<div style="clear: both;"></div>
