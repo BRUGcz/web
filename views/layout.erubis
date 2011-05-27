@@ -25,7 +25,12 @@
         </div>
         <div id="footer">
             <div style="float: left;">&copy; 2011 Brno Ruby User Group</div>
-            <div style="float: right;">Contact: brug@brug.cz</div>
+            <div style="float: right;">
+              LinkedIn: <a href="http://www.linkedin.com/company/2240942" target="_blank">BRUG</a> |
+              Twitter: <a href="http://www.twitter.com/brugcz" target="_blank">@brugcz</a> |
+              Facebook: <a href="http://www.facebook.com/pages/BRUG/107604202660620" target="_blank">BRUG</a> |
+              E-mail: <a href="mailto:brug@brug.cz">brug@brug.cz</a>
+            </div>
         </div>
     </div>
 </div>
