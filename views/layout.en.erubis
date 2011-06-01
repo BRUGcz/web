@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Brno Ruby User Group</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<div id="header">
+  <div id="title">
+    <div class="text">BRUG</div>
+  </div>
+  <div id="subtitle">
+    <div class="text">we know <span class="red">the secrets of Ruby</span></div>
+    <div class="img"><img src="/images/ruby_logo.png" alt="Logo Ruby"/></div>
+  </div>
+  <div id="menu">
+    <div class="item<%= @menu == 'about' ? ' active' : '' %>"><a href="/">About us</a></div>
+    <div class="item<%= @menu == 'activities' ? ' active' : '' %>"><a href="/activities">Activities</a></div>
+    <div class="item<%= @menu == 'projects' ? ' active' : '' %>"><a href="/projects">Projects</a></div>
+    <div class="item<%= @menu == 'members' ? ' active' : '' %>"><a href="/members">Members</a></div>
+    <div class="item<%= @menu == 'blog' ? ' active' : '' %>"><a href="/blog">Blog</a></div>
+  </div>
+</div>
+<div id="body">
+  <div id="content">
+    <div id="data">
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <div style="float: left;">&copy; 2011 Brno Ruby User Group</div>
+      <div style="float: right;">
+        <div style="float: left;padding-top: 3px;padding-left: 15px;"><a href="?lang=en"><img src="/images/us.png" alt="EN"/></a></div>
+        <div style="float: left;padding-top: 3px;padding-left: 5px;"><a href="?lang=cs"><img src="/images/cz.png" alt="CZ"/></a></div>
+      </div>
+      <div style="float: right;">
+        E-mail: <a href="mailto:brug@brug.cz">brug@brug.cz</a>
+      </div>
+      <div style="float: right;width: 10px;text-align:center;">|</div>
+      <div style="float: right;">Facebook:
+        <a href="http://www.facebook.com/pages/BRUG/107604202660620" target="_blank">BRUG</a></div>
+      <div style="float: right;width: 10px;text-align:center;">|</div>
+      <div style="float: right;">
+        Twitter: <a href="http://www.twitter.com/brugcz" target="_blank">@brugcz</a>
+      </div>
+      <div style="float: right;width: 10px;text-align:center;">|</div>
+      <div style="float: right;">
+        LinkedIn: <a href="http://www.linkedin.com/company/2240942" target="_blank">BRUG</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

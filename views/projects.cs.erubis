@@ -1,0 +1,11 @@
+<h1>Projekty</h1>
+<h2>Open-source</h2>
+Coming soon ...
+<h2>Komerční</h2>
+<table>
+  <tr>
+    <td><img src="/images/members/companies/it_logica.png" alt="IT Logica" /></td>
+    <td><span class="red">Školení a podpora</span> při zavádění <span class="red">Ruby a Ruby on Rails</span> do firemních procesů.</td>
+  </tr>
+</table>
+<div style="clear: both;"></div>

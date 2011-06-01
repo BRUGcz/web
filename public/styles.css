@@ -124,12 +124,12 @@ img {
 #footer {
     height: 35px;
     padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 10pt;
     position: absolute;
     bottom: 0;
-    width: 897px;
+    width: 937px;
     border-left: 3px solid #f8f8f3;
     border-right: 3px solid #f8f8f3;
 }
