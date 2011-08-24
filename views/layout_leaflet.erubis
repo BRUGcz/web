@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Brno Ruby User Group</title>
+  <link rel="stylesheet" type="text/css" href="/styles_leaflet.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<div id="header">
+  <div id="title">
+    <div class="text">BRUG</div>
+  </div>
+  <div id="subtitle">
+    <div class="text">we know <span class="red">the secrets of Ruby</span></div>
+    <div class="img"><img src="/images/ruby_logo.png" alt="Logo Ruby"/></div>
+  </div>
+</div>
+<div id="body">
+  <div id="content">
+    <div id="data">
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <div style="float: left; width: 100%;">
+        <div>
+          <div style="float: right;width: 48%;">
+            <p>
+              <br/><br/>
+              Marek Jelen (marek@jelen.biz)<br/>
+              Ivan Nečas (neci@mail.muni.cz)<br/>
+              Tomáš Hrdlička (hrdlicka@3open.com)
+            </p>
+
+            <p>
+              <br/><br/>
+              Tomáš Pitner (tomp@fi.muni.cz)
+            </p>
+          </div>
+          <div style="float: left;width: 48%;text-align: left;">
+            <p>
+              <b>BRUG</b><br/>
+              <br/>
+              Brno Ruby User Group<br/>
+              http://www.brug.cz<br/>
+              brug@brug.cz<br/>
+            </p>
+
+            <p>
+              <b>LaSArIS</b><br/>
+              <br/>
+              http://lasaris.fi.muni.cz<br/>
+              lasaris@fi.muni.cz<br/>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

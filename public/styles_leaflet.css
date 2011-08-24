@@ -1,0 +1,156 @@
+* {
+    font-family: Tahoma, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+#header {
+    width: 1003px;
+    margin: auto;
+}
+
+#title {
+    width: 197px;
+	height: 60px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24pt;
+    float: left;
+    border-left: 3px solid #f8f8f3;
+}
+
+#title div {
+    text-align: center;
+    width: 177px;
+    height: 40px;
+    float: left;
+    padding: 10px;
+    background: #bf3a16;
+}
+
+#subtitle {
+    float: right;
+    font-style: italic;
+    font-size: 13pt;
+    padding-right: 5px;
+}
+
+#subtitle .text {
+    padding-top: 22px;
+    float: left;
+}
+
+#subtitle .img {
+    height: 50px;
+    width: 37px;
+    margin-left: 13px;
+    margin-top: 10px;
+    float:left;
+}
+
+#subtitle .img img {
+    height: 50px;
+    width: 37px;
+}
+
+.red {
+    color: #792913;
+}
+
+#menu {
+    clear: both;
+    float: left;
+    height: 60px;
+    margin-top: 5px;
+    border-right: 3px solid #f8f8f3;
+}
+
+#menu .item {
+    width: 197px;
+    border-left: 3px solid #f8f8f3;
+    height: 60px;
+    float: left;
+    color: #000;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#menu .item.active {
+    background-image: url('images/menu_active.gif');
+    background-repeat: repeat-x;
+}
+
+#menu .item a {
+    display: block;
+    height: 41px;
+    width: 197px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 19px;
+}
+
+#menu .item a:hover {
+    text-decoration: underline;
+}
+
+#body {
+    clear: both;
+}
+
+#content {
+    width: 1003px;
+    margin: auto;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+#data {
+    padding: 15px;
+}
+
+#footer {
+    height: 35px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10pt;
+    position: absolute;
+    bottom: 0;
+    width: 937px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+        font-size: 25px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearer {
+    clear:both;
+}
+
+.members_company_logo {
+    float: left;
+}

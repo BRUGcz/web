@@ -8,7 +8,7 @@ module Brug
     set :public, File.expand_path('../public', __FILE__)
     set :views, File.expand_path('../views', __FILE__)
 
-    set :environment, "production"
+#    set :environment, "production"
 
     enable :sessions
 
@@ -44,6 +44,10 @@ module Brug
     get '/' do
       @menu = "about"
       erubis "about.#{session[:lang]}".to_sym, :layout => "layout.#{session[:lang]}".to_sym
+    end
+
+    get '/leaflet_ruby_muni' do
+      erubis "leaflet".to_sym, :layout => "layout_leaflet".to_sym
     end
 
     get '/activities' do
