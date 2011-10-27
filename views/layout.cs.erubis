@@ -12,7 +12,7 @@
     <div class="text">BRUG</div>
   </div>
   <div id="subtitle">
-    <div class="text">we know <span class="red">the secrets of Ruby</span></div>
+    <div class="text">we share <span class="red">the secrets of Ruby</span></div>
     <div class="img"><img src="/images/ruby_logo.png" alt="Logo Ruby"/></div>
   </div>
   <div id="menu">
