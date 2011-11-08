@@ -69,7 +69,7 @@ module Brug
       @menu = "blog"
       erubis "blog.#{session[:lang]}".to_sym, :layout => "layout.#{session[:lang]}".to_sym
     end
-    
+
   end
 
 end
