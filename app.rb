@@ -8,37 +8,13 @@ module Brug
     set :public, File.expand_path('../public', __FILE__)
     set :views, File.expand_path('../views', __FILE__)
 
-#    set :environment, "production"
+    set :environment, "production"
 
     enable :sessions
 
-    # ToDo: well, this is not pretty
     before do
-      if params[:lang]
-        session[:lang] = params[:lang]
-      end
-      unless session[:lang]
-        accept = ["cs", "en"]
-        lang = env["HTTP_ACCEPT_LANGUAGE"]
-        lang = "cs" unless lang
-        lang.split(",").each do |l|
-          if l.include?(";")
-            l = l.split(";")[0]
-          end
-          if accept.include?(l)
-            session[:lang] = l
-            break
-          else
-            accept.each do |a|
-              if l == a or l.match(/^#{a}-/)
-                session[:lang] = a
-                break
-              end
-            end
-            break if session[:lang]
-          end
-        end
-      end
+      session[:lang] = params[:lang] if params[:lang]
+      session[:lang] = 'en' unless session[:lang]
     end
 
     get '/' do
